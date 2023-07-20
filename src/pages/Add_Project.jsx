@@ -20,7 +20,7 @@ export default function Add_Project() {
   async function handleSubmit(e) {
     e.preventDefault();
     try {
-      const apiCall = await fetch("http://localhost:5000/add", {
+      const apiCall = await fetch("https://harshavardhan-24-backend.onrender.com/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
